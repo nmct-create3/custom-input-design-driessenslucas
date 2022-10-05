@@ -112,6 +112,13 @@
 		--card-title--color: var(--global-color-white);
 	}
 }
+@media (prefers-color-scheme: dark) {
+	.c-input {
+		--global-input-backgroundColor: var(--global-color-neutral-xxxx-dark);
+		--global-input-color: var(--global-color-neutral-x-light);
+		--global-input-borderColor: var(--global-color-neutral-xxx-dark);
+	}
+}
 
 html {
 	color: var(--global-page-color);
